@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap-->
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="maincss.css">
+    <title>Form page</title>
+</head>
+
+<header>
+  <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+<div class="container-fluid">
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-mdb-toggle="collapse"
+    data-mdb-target="#navbarExample01"
+    aria-controls="navbarExample01"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <i class="fas fa-bars"></i>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarExample01">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item active">
+        <a class="btn" aria-current="page" href="#">Home</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<!-- Navbar -->
+
+<!-- Jumbotron -->
+<div class="p-5 text-center bg-light">
+<h1 class="mb-3" id="title">This is a form page</h1>
+<p class="mb-3" id="description">Hello! this is a description.</p>
+</div>
+<!-- Jumbotron -->
+</header>
+<body class="body">
+<div class="p-5 text-center bg-light">
+<form action="" id="survey-form">
+      <div class="form-group row">
+        <label for="name" id="name-label" class="col-sm-2 col-form-label">Name</label>
+        <div class="col-sm-2">
+          <input type="text" id="name" class="form-control-plaintext" placeholder="write your name" required>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label id="email-label" for="email" class="col-sm-2 col-form-label">E-mail</label>
+        <div class="col-sm-2">
+          <input type="email" id="email" class="form-control-plaintext" placeholder="write your email" required>
+        </div>
+      </div> <br>
+      <div class="form-group row">
+      <label for="number" id="number-label" class="col-sm-2 col-form-label">Number</label>
+      <div class="col-sm-1">
+        <input type="number" id="number" min="0" max="20" placeholder="0 - 20" class="form-control"> 
+      </div>
+    </div><br>
+    <div class="form-group row">
+      <label for="options" class="col-sm-2 col-form-label">Options</label>
+    <div class="col-sm-1">
+        <select name="cars" id="dropdown" class="form-control">
+            <option value="volvo">Volvo</option>
+            <option value="kia">Kia</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+          </select>
+    </div>
+  </div>
+   <br>
+   <div class="form-group row">
+    <label for="radio" class="col-sm-2 col-form-label" >Radio btns</label>
+  <div class="col-sm-1" id="radio btn">
+        <input type="radio" name="radio btn" value="radio 1">this is a radio btn <br>
+        <input type="radio" name="radio btn" value="radio 2">this is a radio btn 2 <br>
+        <input type="radio" name="radio btn" value="radio 3">this is a radio btn 3 <br>
+      </div>
+    </div> <br>
+    <div class="form-group row">
+      <label for="checkbox" class="col-sm-2 col-form-label">Checkboxes</label>
+    <div class="col-sm-1">
+        <input type="checkbox" value="checkbox 1">checkbox 1 <br>
+        <input type="checkbox" value="checkbox 2">checkbox 2 <br>
+        <input type="checkbox" value="checkbox 3">checkbox 3 <br>
+      </div>
+    </div>
+    <div class="form-group row">
+    <div class="col-sm-5">
+        <textarea name="textarea" id="textarea" cols="15" rows="5" class="form-control-plaintext">You can write over here</textarea> <br>
+      </div>
+    </div>
+        <div class="form-group row">
+          <label for="btn" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-1">
+        <button id="submit" class="btn">submit</button>
+      </div>
+    </div>
+</form>
+</div>
+</body>
+<footer class="p-5 text-center bg-dark">
+  <p class="footer">This is just a practice of web development. 
+      You can use the code of this page without worrying.</p>
+</footer>
+</html>
