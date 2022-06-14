@@ -1,24 +1,28 @@
+
 .body {
-color: #353535;
-font-family: 'Courier New', Courier, monospace;
-display: block;
-text-align: center;
-}
-.btn {
-    color: #fff;
-    background-color: #327da8;
-    border-radius: 80px;
-}
-
-btn:hover {
-    background-color: #3898cf;
-}
-
-#textarea {
-    background-color: #f5f5f5;
-}
-
-.footer {
-    color: aliceblue;
+    color: #353535;
     font-family: 'Courier New', Courier, monospace;
-}
+    }
+    .btn {
+        color: #fff;
+        background-color: #309bd9;
+        border-radius: 80px;
+        width: 100px;
+    }
+    
+    .btn:hover {
+        background-color: #3a779a;
+        color: #fff;
+        font-weight: bolder;
+    }
+    
+    #textarea {
+        background-color: #f5f5f5;
+        width: 50%;
+        margin-left: 35%;
+    }
+    
+    .footer {
+        color: aliceblue;
+        font-family: 'Courier New', Courier, monospace;
+    }
