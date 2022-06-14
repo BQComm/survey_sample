@@ -13,7 +13,7 @@
 <header>
   <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-<div class="container-md p-5">
+<div class="container-fluid">
   <button
     class="navbar-toggler"
     type="button"
@@ -47,59 +47,58 @@
 <div class="p-5 text-center bg-light">
 <form action="" id="survey-form">
       <div class="form-group row">
-        <label for="name" id="name-label" class="col-sm-2 col-form-label">Name</label>
-        <div class="col-sm-2">
+        <label for="name" id="name-label" class="col col-form-label text-end">Name</label>
+        <div class="col">
           <input type="text" id="name" class="form-control-plaintext" placeholder="write your name" required>
         </div>
       </div>
       <div class="form-group row">
-        <label id="email-label" for="email" class="col-sm-2 col-form-label">E-mail</label>
-        <div class="col-sm-2">
+        <label id="email-label" for="email" class="col col-form-label text-end">E-mail</label>
+        <div class="col">
           <input type="email" id="email" class="form-control-plaintext" placeholder="write your email" required>
         </div>
       </div> <br>
       <div class="form-group row">
-      <label for="number" id="number-label" class="col-sm-2 col-form-label">Number</label>
-      <div class="col-sm-1">
-        <input type="number" id="number" min="0" max="20" placeholder="0 - 20" class="form-control"> 
+      <label for="number" id="number-label" class="col col-form-label text-end">Number</label>
+      <div class="col text-start">
+        <input type="number" id="number" min="0" max="20" placeholder="0 - 20"> 
       </div>
     </div><br>
     <div class="form-group row">
-      <label for="options" class="col-sm-2 col-form-label">Options</label>
-    <div class="col-sm-1">
-        <select name="cars" id="dropdown" class="form-control">
-            <option value="volvo">Volvo</option>
-            <option value="kia">Kia</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
+      <label for="options" class="col col-form-label text-end">Options</label>
+    <div class="col text-start">
+        <select name="cars" id="dropdown">
+            <option value="1">Opt 1</option>
+            <option value="2">Opt 2</option>
+            <option value="3">Opt 3</option>
+            <option value="4">Opt 4</option>
           </select>
     </div>
   </div>
    <br>
    <div class="form-group row">
-    <label for="radio" class="col-sm-2 col-form-label" >Radio btns</label>
-  <div class="col-sm-1" id="radio btn">
-        <input type="radio" name="radio btn" value="radio 1">this is a radio btn <br>
+    <label for="radio" class="col col-form-label text-end" >Radio buttons</label>
+  <div class="col text-start" id="radio btn">
+        <input type="radio" name="radio btn" value="radio 1">this is a radio btn 1 <br>
         <input type="radio" name="radio btn" value="radio 2">this is a radio btn 2 <br>
         <input type="radio" name="radio btn" value="radio 3">this is a radio btn 3 <br>
       </div>
     </div> <br>
     <div class="form-group row">
-      <label for="checkbox" class="col-sm-2 col-form-label">Checkboxes</label>
-    <div class="col-sm-1">
+      <label for="checkbox" class="col col-form-label text-end">Checkboxes</label>
+    <div class="col text-start">
         <input type="checkbox" value="checkbox 1">checkbox 1 <br>
         <input type="checkbox" value="checkbox 2">checkbox 2 <br>
         <input type="checkbox" value="checkbox 3">checkbox 3 <br>
       </div>
     </div>
     <div class="form-group row">
-    <div class="col-sm-5">
-        <textarea name="textarea" id="textarea" cols="15" rows="5" class="form-control-plaintext">You can write over here</textarea> <br>
+    <div class="col">
+        <textarea name="textarea" id="textarea" cols="15" rows="5" class="form-control-plaintext">You can write anything over here!</textarea> <br>
       </div>
     </div>
         <div class="form-group row">
-          <label for="btn" class="col-sm-2 col-form-label"></label>
-        <div class="col-sm-1">
+        <div class="col">
         <button id="submit" class="btn">submit</button>
       </div>
     </div>
